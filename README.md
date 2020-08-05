@@ -50,4 +50,20 @@ PASOS A SEGUIR - Estructura del proyecto
 32- Crear un Script
 33- En el script ingresar valores de test y test2
 34- En cada valor Ingresar -> Testcafe(palabra reserbada de autom), un navegador y la ruta de test y test2
-35- 
+
+PASOS A SEGUIR - Guardar los cambios del proyecto
+
+35- Ingresar a gitkraken
+36- Seleccionar la rama creada
+37- Click en el boton "Stage all changes" (para aceptar los cambios realizados)
+38- Ingresar una descripcion
+39- Click en "Commit changes to .. file"
+40- Click en el boton "Push"
+41- Ir a la opcion "PULL REQUESTS"
+42- Completar las opciones (FromRepo: el repo del proyecto , Branch: Rama creada y master)
+43- Click en el boton "Create pull request"
+44- Ingresar al github -> proyecto -> Pull request
+45- Click y aceptar "Merge pull request"
+46- Ingresar a gitkraken
+47- Seleccionar la rama "master"
+48- Click en "Pull"
