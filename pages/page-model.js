@@ -26,3 +26,12 @@ class Page {
     }
    
 }
+
+test('Presionar boton de inicio 2', async t => {
+    console.log('-----------------------------------------------------------------------------------------');
+    let guardarFuncion = page.button 
+    await t
+    .click(guardarFuncion)  
+  });
+  
+  /*=======================================================================*/
