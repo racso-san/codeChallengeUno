@@ -26,3 +26,30 @@ class Page {
     }
    
 }
+
+test('Presionar boton de inicio 2', async t => {
+    console.log('-----------------------------------------------------------------------------------------');
+    let guardarFuncion = page.button 
+    await t
+    .click(guardarFuncion)  
+  });
+  
+  /*=======================================================================*/
+
+  test('Validar el título de la página 3', async t => {
+    console.log('-----------------------------------------------------------------------------------------');
+    let actualResult = '';
+    let expectedResultTitle = 'A node.js tool to automate end-to-end web testing';
+    let guardarTitulo = page.titulo          
+   
+    const extraerTItulo = await page.guardarTexto(guardarTitulo);
+    actualResult = extraerTItulo.replace("\n"," "); 
+  
+    if(actualResult == expectedResultTitle ){
+      console.log('La validacion del titulo fue correcta : ' + expectedResultTitle);
+    } else {
+      console.log('La validacion del titulo fue incorrecta : ' + actualResult);
+    }  
+  });
+  
+  /*=======================================================================*/
