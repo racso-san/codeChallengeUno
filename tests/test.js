@@ -125,6 +125,6 @@ test
     } else {
       console.log('Validacion incorrecta : ' + myArrayNavBar[i] + ' distinto de ' + actualResult);
       }
-    } //https://devexpress.github.io/testcafe/ 
+    } 
 }); 
 
