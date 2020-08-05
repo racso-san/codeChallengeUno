@@ -1,6 +1,7 @@
 {
     "scripts": {
-        "test": "testcafe chrome tests/test.js"
+        "test": "testcafe chrome tests/test.js",
+        "test2": "testcafe chrome tests/test2.js"
     },
 
     "dependencies": {
