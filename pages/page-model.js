@@ -16,6 +16,13 @@ class Page {
 
         this.barraNav = Selector('.doc-top-nav-wrapper');
     }
-
+    
+    async guardarTexto (funcion) {
+     //   await t
+        const funcionTexto = funcion
+    //    .child('p')       
+        const resultFun =  funcionTexto.innerText
+        return resultFun;
+    }
    
 }

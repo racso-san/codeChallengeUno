@@ -41,4 +41,42 @@ test('Test 1', async t => {
   const actualResult4 = extraerTItulo4.replace("\n"," ");
   const actualResult5 = extraerTItulo5.replace("\n"," ");
   const actualResult6 = extraerTItulo6.replace("\n"," ");
+ 
+  if(actualResult1 == arrayFunciones[0] ){
+    console.log('Validacion correcta : ' + arrayFunciones[0]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult1 + ' debe ser ' + arrayFunciones[0]);
+  }
+
+  if(actualResult2 == arrayFunciones[1] ){
+    console.log('Validacion correcta : ' + arrayFunciones[1]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult2 + ' debe ser ' + arrayFunciones[1]);
+  }
+
+  if(actualResult3 == arrayFunciones[2] ){
+    console.log('Validacion correcta : ' + arrayFunciones[2]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult3 + ' debe ser ' + arrayFunciones[2]);
+  }
+
+  if(actualResult4 == arrayFunciones[3] ){
+    console.log('Validacion correcta : ' + arrayFunciones[3]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult4 + ' debe ser ' + arrayFunciones[3]);
+  }
+
+  if(actualResult5 == arrayFunciones[4] ){
+    console.log('Validacion correcta : ' + arrayFunciones[4]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult5 + ' debe ser ' + arrayFunciones[4]);
+  }
+
+  if(actualResult6 == arrayFunciones[5] ){
+    console.log('Validacion correcta : ' + arrayFunciones[5]);
+  } else {
+    console.log('Validacion incorrecta : ' + actualResult6+ ' debe ser ' + arrayFunciones[5]);
+  }
 });
+
+/*=======================================================================*/
