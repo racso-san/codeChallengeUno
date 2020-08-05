@@ -6,6 +6,7 @@ PRECONDICIÓN
 2- Instalar npm
 3- Tener cuenta en github
 4- Tener instalado un control de versiones (Ejem: Gitkraken)
+5- Tener un editor de codigo (Ejem: Visual studio code)
 
 PASOS A SEGUIR - Crear repositorio:
 
@@ -31,4 +32,22 @@ PASOS A SEGUIR - Instalar repositorio en gitkraken
 17- Seleccionar el destino del repo en "Where to clone toS"
 18- Click en "Clone to repo"
 19- Click en abrir repo
+20- Click en el boton "Branch"
+21- Ingresar un nombre
+22- Click para guardar
+23- Buscar el repositorio almacenado anteriormente en la pc
+24- Abrir el repositorio con un editor de codigo
 
+PASOS A SEGUIR - Estructura del proyecto
+
+25- Click en "New folder"
+26- Crear dos carpetas (pages y tests)
+27- En "pages" crear un archivo llamado page-model.js
+28- En "tests" crear un archivo llamado test.js y otro llamado test2.js
+29- Click en "New file"
+30- Crear un archivo llamado "package.json" (En el proyecto inicial no en los folder page y tests)
+31- Ingresar al "package.json"
+32- Crear un Script
+33- En el script ingresar valores de test y test2
+34- En cada valor Ingresar -> Testcafe(palabra reserbada de autom), un navegador y la ruta de test y test2
+35- 
