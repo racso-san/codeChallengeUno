@@ -10,17 +10,17 @@ test('Presionar boton de inicio 1', async t => {
     await t
     .click(guardarFuncion)  
 });
-      
+   
 /*=======================================================================*/
- 
+
 test
  .page `https://devexpress.github.io/testcafe/documentation/getting-started/`
- ('Validar Nav 4', async t => {
+ ('Validar Nav 4', async t => { 
   console.log('-----------------------------------------------------------------------------------------');
-  //  await t
+  //await t
   let actualResult = '';
-  let myArrayNavBar = ["Getting Started", "Guides", "Reference", "RecipesSSS" , "How It Works" , "Examples"];
- 
+  let myArrayNavBar = ["Getting Started", "Guides", "Reference", "Recipes" , "How It Works" , "Examples"];
+  
   for(let i = 0; i < myArrayNavBar.length; i++){ 
     let saveNavBar = page.barraNav.child(i);
     const extraerTItulo = await page.guardarTexto(saveNavBar);
@@ -30,5 +30,7 @@ test
     } else {
       console.log('Validacion incorrecta : ' + myArrayNavBar[i] + ' distinto de ' + actualResult);
       }
-    }
+     await t  
+    .click (Selector('a').withText(myArrayNavBar[i]))    
+    }   
 }); 

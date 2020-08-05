@@ -114,7 +114,7 @@ test
   console.log('-----------------------------------------------------------------------------------------');
   //  await t
   let actualResult = '';
-  let myArrayNavBar = ["Getting Started", "Guides", "Reference", "RecipesSSS" , "How It Works" , "Examples"];
+  let myArrayNavBar = ["Getting Started", "Guides", "Reference", "Recipes" , "How It Works" , "Examples"];
  
   for(let i = 0; i < myArrayNavBar.length; i++){ 
     let saveNavBar = page.barraNav.child(i);
