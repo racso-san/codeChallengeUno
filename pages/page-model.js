@@ -29,8 +29,7 @@ class Page {
     //   await t
         const funcionURL = url
         .child('a')
-        .withAttribute('href', 'url');
-               
+        .withAttribute('href', 'url');      
        // const resultFun =  funcionURL.innerText
       //  return url;
          }
